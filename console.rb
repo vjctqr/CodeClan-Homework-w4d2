@@ -51,5 +51,10 @@ customer3.pay_for_ticket(ticket6)
 
 customer4.pay_for_ticket(ticket7)
 
+customer = Customer.all()
+films = Film.all()
+screenings = Screening.all()
+tickets = Ticket.all()
+
 binding.pry
 nil
